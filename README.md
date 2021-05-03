@@ -1,3 +1,3 @@
-# TS Base
+# 💡 Util types
 
-⚓ TypeScript base project
+TypeScript utility types
