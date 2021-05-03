@@ -1,5 +1,5 @@
 {
-  "name": "util-types",
+  "name": "@artificial-page/util-types",
   "version": "0.0.1",
   "description": "TypeScript utility types",
   "main": "./dist/cjs-ts/utilTypes.js",
