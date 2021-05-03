@@ -2,8 +2,7 @@
   "name": "util-types",
   "version": "0.0.1",
   "description": "TypeScript utility types",
-  "private": true,
-  "bin": {},
+  "main": "./dist/cjs-ts/utilTypes.js",
   "scripts": {
     "build": "./bin/build",
     "postinstall": "husky install; npm run build",
