@@ -1,6 +1,6 @@
 {
   "name": "@artificial-page/util-types",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript utility types",
   "main": "./dist/cjs-ts/utilTypes.js",
   "scripts": {
