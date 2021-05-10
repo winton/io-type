@@ -1,6 +1,6 @@
 {
   "name": "in-out-type",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "TypeScript function I/O utility types",
   "main": "./dist/cjs-ts/in-out-type.js",
   "scripts": {
