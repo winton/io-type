@@ -20,7 +20,7 @@ npm install in-out-type
 Here we create a function that combines two other function's outputs:
 
 ```typescript
-import { InType, OutType } from "fn-io-types"
+import { InType, OutType } from "in-out-type"
 
 async function helloHi({
   hello,
