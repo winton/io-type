@@ -1,5 +1,5 @@
 {
-  "name": "io-types",
+  "name": "fn-io-types",
   "version": "0.0.2",
   "description": "TypeScript function I/O utility types",
   "main": "./dist/cjs-ts/ioTypes.js",

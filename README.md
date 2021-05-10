@@ -5,7 +5,7 @@ TypeScript function I/O utility types
 ## ⚙️ Install
 
 ```bash
-npm install io-types
+npm install fn-io-types
 ```
 
 ## 👻 Types
