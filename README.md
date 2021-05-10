@@ -12,8 +12,8 @@ npm install in-out-type
 
 | Type | Description |
 | :--- | :--- |
-| `InType<T>` | Type of the first argument to a function |
-| `OutType<T>` | Return type of a sync or async function |
+| `InType<T>` | Given a function type, get the type of the first argument |
+| `OutType<T>` | Given a function type, get the return type |
 
 ## 📽️ Example
 
