@@ -17,26 +17,12 @@ npm install in-out-type
 
 ## 📽️ Example
 
+Here we create a function that combines two other function's outputs:
+
 ```typescript
-export function helloWorld(
-  { hello }: { hello: boolean }
-): { world: boolean } {
-  if (hello) {
-    return { world: true }
-  }
-}
-
-export async function hiUniverse(
-  { hi }: { hi: boolean }
-): Promise<{ universe: boolean }> {
-  if (hi) {
-    return { universe: true }
-  }
-}
-
 import { InType, OutType } from "fn-io-types"
 
-export async function helloHi({
+async function helloHi({
   hello,
   hi
 }: InType<typeof helloWord> &
@@ -50,4 +36,24 @@ export async function helloHi({
     await hiUniverse({ hi }),
   )
 }
+
+function helloWorld(
+  { hello }: { hello: boolean }
+): { world: boolean } {
+  if (hello) {
+    return { world: true }
+  }
+}
+
+async function hiUniverse(
+  { hi }: { hi: boolean }
+): Promise<{ universe: boolean }> {
+  if (hi) {
+    return { universe: true }
+  }
+}
 ```
+
+Function I/O types can eliminate the need to split out arguments and return values to external interfaces in certain cases.
+
+I/O types also provide a more direct way of exploring the functions that built an argument or return value.
