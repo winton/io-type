@@ -1,4 +1,4 @@
-# 💡 Function I/O Types
+# 🐕‍🦺 Fn I/O Types
 
 TypeScript function I/O utility types
 
