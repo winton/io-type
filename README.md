@@ -34,7 +34,7 @@ export async function hiUniverse(
   }
 }
 
-import { InType } from "io-types"
+import { InType, OutType } from "fn-io-types"
 
 export async function helloHi({
   hello,
