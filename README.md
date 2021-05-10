@@ -8,6 +8,12 @@ TypeScript function I/O utility types
 npm install in-out-type
 ```
 
+## ⛲ Purpose
+
+Function I/O types eliminate the need to split out arguments and return values to external interfaces.
+
+This removes one level of obscurity from both the function implementation and the function type references.
+
 ## 👻 Types
 
 | Type | Description |
@@ -53,7 +59,3 @@ async function hiUniverse(
   }
 }
 ```
-
-Function I/O types can eliminate the need to split out arguments and return values to external interfaces in certain cases.
-
-I/O types also provide a more direct way of exploring the functions that built an argument or return value.
