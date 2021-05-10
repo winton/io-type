@@ -1,7 +1,7 @@
 {
   "name": "in-out-type",
   "version": "0.0.6",
-  "description": "TypeScript function in/out utility types",
+  "description": "TypeScript function I/O utility types",
   "main": "./dist/cjs-ts/in-out-type.js",
   "scripts": {
     "build": "./bin/build",

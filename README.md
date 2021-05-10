@@ -1,6 +1,6 @@
 # 🐕‍🦺 In/Out Type
 
-TypeScript function in/out utility types
+TypeScript function I/O utility types
 
 ## ⚙️ Install
 
