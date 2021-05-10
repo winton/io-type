@@ -1,11 +1,11 @@
-# 🐕‍🦺 Fn I/O Types
+# 🐕‍🦺 In/Out Type
 
-TypeScript function I/O utility types
+TypeScript function in/out utility types
 
 ## ⚙️ Install
 
 ```bash
-npm install fn-io-types
+npm install in-out-type
 ```
 
 ## 👻 Types
