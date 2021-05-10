@@ -1,4 +1,4 @@
-# 🐕‍🦺 In/Out Type
+# 🧼 In/Out Type
 
 TypeScript function I/O utility types
 
