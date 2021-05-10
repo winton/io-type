@@ -1,7 +1,7 @@
 {
-  "name": "fn-io-types",
+  "name": "in-out-type",
   "version": "0.0.5",
-  "description": "TypeScript function I/O utility types",
+  "description": "TypeScript function in/out utility types",
   "main": "./dist/cjs-ts/ioTypes.js",
   "scripts": {
     "build": "./bin/build",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/artificial-page/io-types.git"
+    "url": "git+ssh://git@github.com/artificial-page/in-out-type.git"
   },
   "author": "Winton Welsh <mail@wintoni.us>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/artificial-page/io-types/issues"
+    "url": "https://github.com/artificial-page/in-out-type/issues"
   },
-  "homepage": "https://github.com/artificial-page/io-types#readme",
+  "homepage": "https://github.com/artificial-page/in-out-type#readme",
   "devDependencies": {
     "@types/fs-extra": "9.0.10",
     "@types/mocha": "8.2.2",
