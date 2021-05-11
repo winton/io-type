@@ -1,11 +1,11 @@
-# 🧼 In/Out Type
+# 🧼 I/O Type
 
 TypeScript function I/O utility types
 
 ## ⚙️ Install
 
 ```bash
-npm install in-out-type
+npm install io-type
 ```
 
 ## ⛲ Purpose
@@ -26,7 +26,7 @@ This removes one level of obscurity from both the function implementation and th
 Here we create a function that combines two other function's outputs:
 
 ```typescript
-import { InType, OutType } from "in-out-type"
+import { InType, OutType } from "io-type"
 
 async function helloHi({
   hello,

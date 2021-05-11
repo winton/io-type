@@ -1,8 +1,8 @@
 {
-  "name": "in-out-type",
+  "name": "io-type",
   "version": "0.0.9",
   "description": "TypeScript function I/O utility types",
-  "main": "./dist/cjs-ts/in-out-type.js",
+  "main": "./dist/cjs-ts/io-type.js",
   "scripts": {
     "build": "./bin/build",
     "postinstall": "husky install; npm run build",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/artificial-page/in-out-type.git"
+    "url": "git+ssh://git@github.com/artificial-page/io-type.git"
   },
   "author": "Winton Welsh <mail@wintoni.us>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/artificial-page/in-out-type/issues"
+    "url": "https://github.com/artificial-page/io-type/issues"
   },
-  "homepage": "https://github.com/artificial-page/in-out-type#readme",
+  "homepage": "https://github.com/artificial-page/io-type#readme",
   "devDependencies": {
     "@types/fs-extra": "9.0.10",
     "@types/mocha": "8.2.2",
