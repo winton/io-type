@@ -2,7 +2,7 @@
   "name": "io-type",
   "version": "0.0.11",
   "description": "TypeScript function I/O utility types",
-  "main": "./dist/cjs-ts/io-type.js",
+  "main": "./dist/cjs-ts/ioType.js",
   "scripts": {
     "build": "./bin/build",
     "postinstall": "husky install; npm run build",
