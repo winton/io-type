@@ -9,3 +9,5 @@ export type OutType<T> = T extends (
     ? U
     : R
   : any
+
+export type InOutType<T> = InType<T> & OutType<T>
