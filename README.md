@@ -1,4 +1,4 @@
-# 🧼 I/O Type
+# 🛠️ I/O Type
 
 TypeScript function I/O utility types
 
@@ -8,54 +8,33 @@ TypeScript function I/O utility types
 npm install io-type
 ```
 
-## ⛲ Purpose
+## 📖 Terminology
 
-Function I/O types eliminate the need to split out arguments and return values to external interfaces.
+| Term | Description |
+| :--- | :--- |
+| **Function** | (A)sync function |
+| **Record** | Object with (a)sync function values |
+| **Input** | The first argument to the function |
+| **Output** | The return value of the function |
 
-This removes one level of obscurity from both the function implementation and the function type references.
+## 👻 Type utilities
 
-## 👻 Types
+### Functions
 
 | Type | Description |
 | :--- | :--- |
-| `InType<T>` | Given a function type, get the type of the first argument |
-| `OutType<T>` | Given a function type, get the return type |
+| `InType<T>` | Input type |
+| `OutType<T>` | Output type |
+| `InOutInterType<T>` | Intersection of input and output type |
+| `InOutUnionType<T>` | Union of input and output type |
 
-## 📽️ Example
+### Records
 
-Here we create a function that combines two other function's outputs:
-
-```typescript
-import { InType, OutType } from "io-type"
-
-async function helloHi({
-  hello,
-  hi
-}: InType<typeof helloWord> &
-  InType<typeof hiUniverse>
-): Promise<
-  OutType<typeof helloWord> &
-  OutType<typeof hiUniverse>
-> {
-  return Object.assign(
-    helloWorld({ hello }),
-    await hiUniverse({ hi }),
-  )
-}
-
-function helloWorld(
-  { hello }: { hello: boolean }
-): { world: boolean } {
-  if (hello) {
-    return { world: true }
-  }
-}
-
-async function hiUniverse(
-  { hi }: { hi: boolean }
-): Promise<{ universe: boolean }> {
-  if (hi) {
-    return { universe: true }
-  }
-}
-```
+| Type | Description |
+| :--- | :--- |
+| `RecordInType<T>` | Record input types |
+| `RecordOutType<RT>` | Record output types |
+| `RecordInUnionType<RT>` | Record input union type |
+| `RecordOutUnionType<RT>` | Record output union type |
+| `RecordInInterType<RT>` | Record input intersection type |
+| `RecordOutInterType<RT>` | Record output intersection type |

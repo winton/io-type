@@ -10,4 +10,37 @@ export type OutType<T> = T extends (
     : R
   : any
 
-export type InOutType<T> = InType<T> & OutType<T>
+export type InOutInterType<T> = InType<T> & OutType<T>
+
+export type InOutUnionType<T> = InType<T> | OutType<T>
+
+type RecordType = Record<
+  string | number | symbol,
+  Promise<unknown> | unknown
+>
+
+export type RecordInType<Obj extends RecordType> = {
+  [P in keyof Obj]: InType<Obj[P]>
+}
+
+export type RecordOutType<Obj extends RecordType> = {
+  [P in keyof Obj]: OutType<Obj[P]>
+}
+
+export type RecordInUnionType<Obj extends RecordType> =
+  RecordInType<Obj>[keyof Obj]
+
+export type RecordOutUnionType<Obj extends RecordType> =
+  RecordOutType<Obj>[keyof Obj]
+
+export type RecordInInterType<Obj extends RecordType> = {
+  [K in keyof Obj]: (x: RecordInType<Obj>[K]) => void
+}[keyof Obj] extends (x: infer I) => void
+  ? I
+  : never
+
+export type RecordOutInterType<Obj extends RecordType> = {
+  [K in keyof Obj]: (x: RecordOutType<Obj>[K]) => void
+}[keyof Obj] extends (x: infer I) => void
+  ? I
+  : never
