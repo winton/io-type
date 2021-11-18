@@ -1,6 +1,6 @@
 {
   "name": "io-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript function I/O utility types",
   "main": "./dist/cjs-ts/ioType.js",
   "scripts": {
