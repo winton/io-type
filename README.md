@@ -33,8 +33,8 @@ npm install io-type
 | Type | Description |
 | :--- | :--- |
 | `RecordInType<T>` | Record input types |
-| `RecordOutType<RT>` | Record output types |
-| `RecordInUnionType<RT>` | Record input union type |
-| `RecordOutUnionType<RT>` | Record output union type |
-| `RecordInInterType<RT>` | Record input intersection type |
-| `RecordOutInterType<RT>` | Record output intersection type |
+| `RecordOutType<T>` | Record output types |
+| `RecordInUnionType<T>` | Record input union type |
+| `RecordOutUnionType<T>` | Record output union type |
+| `RecordInInterType<T>` | Record input intersection type |
+| `RecordOutInterType<T>` | Record output intersection type |
