@@ -16,7 +16,7 @@ export type InOutUnionType<T> = InType<T> | OutType<T>
 
 export type RecordType = Record<
   string | number | symbol,
-  Promise<unknown> | unknown
+  (...args: any[]) => any
 >
 
 export type RecordInType<Obj extends RecordType> = {
