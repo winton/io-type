@@ -14,7 +14,7 @@ export type InOutInterType<T> = InType<T> & OutType<T>
 
 export type InOutUnionType<T> = InType<T> | OutType<T>
 
-type RecordType = Record<
+export type RecordType = Record<
   string | number | symbol,
   Promise<unknown> | unknown
 >
