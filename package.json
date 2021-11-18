@@ -5,7 +5,7 @@
   "main": "./dist/cjs-ts/ioType.js",
   "scripts": {
     "build": "./bin/build",
-    "postinstall": "husky install; npm run build",
+    "prepare": "husky install; npm run build",
     "start": "./bin/watch",
     "test": "NODE_ENV=\"${NODE_ENV:-test}\" mocha",
     "update": "ncu -u"
