@@ -10,10 +10,10 @@ npm install --save-dev io-type
 
 | Term | Description |
 | :--- | :--- |
-| **Function** | Function with one argument (sync or async) |
-| **Record** | Object with **function** values |
-| **Input** | The first argument to the **function** |
-| **Output** | The return value of the **function** |
+| **Function** | Any single-argument function (sync or async) |
+| **Input** | *Function* argument |
+| **Output** | *Function* return value |
+| **Record** | Object with *function* values |
 
 ## 👻 Type utilities
 
@@ -21,18 +21,18 @@ npm install --save-dev io-type
 
 | Type | Description |
 | :--- | :--- |
-| `InType<T>` | **Input** type |
-| `OutType<T>` | **Output** type |
-| `InOutInterType<T>` | Intersection of **input** and **output** type |
-| `InOutUnionType<T>` | Union of **input** and **output** type |
+| `InType<T>` | *Input* type |
+| `OutType<T>` | *Output* type |
+| `InOutInterType<T>` | Intersection of *input* and *output* type |
+| `InOutUnionType<T>` | Union of *input* and *output* type |
 
 ### Records
 
 | Type | Description |
 | :--- | :--- |
-| `RecordInType<T>` | **Record input** types |
-| `RecordOutType<T>` | **Record output** types |
-| `RecordInUnionType<T>` | **Record input** union type |
-| `RecordOutUnionType<T>` | **Record output** union type |
-| `RecordInInterType<T>` | **Record input** intersection type |
-| `RecordOutInterType<T>` | **Record output** intersection type |
+| `RecordInType<T>` | *Record input* types |
+| `RecordOutType<T>` | *Record output* types |
+| `RecordInUnionType<T>` | *Record input* union type |
+| `RecordOutUnionType<T>` | *Record output* union type |
+| `RecordInInterType<T>` | *Record input* intersection type |
+| `RecordOutInterType<T>` | *Record output* intersection type |
