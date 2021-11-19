@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/artificial-page/io-type.git"
+    "url": "git+ssh://git@github.com/winton/io-type.git"
   },
   "author": "Winton Welsh <mail@wintoni.us>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/artificial-page/io-type/issues"
+    "url": "https://github.com/winton/io-type/issues"
   },
-  "homepage": "https://github.com/artificial-page/io-type#readme",
+  "homepage": "https://github.com/winton/io-type#readme",
   "devDependencies": {
     "@types/fs-extra": "9.0.13",
     "@types/mocha": "9.0.0",
@@ -47,8 +47,5 @@
       "eslint --ignore-path .gitignore --fix",
       "git add"
     ]
-  },
-  "dependencies": {
-    "tslib": "2.3.1"
   }
 }
